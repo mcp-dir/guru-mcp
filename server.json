@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/guru-mcp",
+  "title": "Digital Manager Guru",
+  "description": "Digital Manager Guru checkout and sales-management platform for digital products via the official AP",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/guru-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_guru"
+    }
+  ]
+}
